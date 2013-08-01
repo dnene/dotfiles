@@ -33,3 +33,6 @@ map <c-h> <c-w>h                                " map ctrl-h to window left
 map <leader>td <Plug>TaskList                   " map to launch tasklist
 
 map <leader>g :GundoToggle<CR>                  " toggle gundo window
+
+let g:pyflakes_use_quickfix = 0                 " do not use the quickfix window
+
