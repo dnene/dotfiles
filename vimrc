@@ -30,3 +30,5 @@ map <c-l> <c-w>l                                " map ctrl-l to window right
 map <c-h> <c-w>h                                " map ctrl-h to window left
 
 map <leader>td <Plug>TaskList                   " map to launch tasklist
+
+map <leader>g :GundoToggle<CR>                  " toggle gundo window
