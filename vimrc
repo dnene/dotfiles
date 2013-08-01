@@ -1,6 +1,6 @@
 set nocompatible                                " get rid of Vi compatibility mode. SET FIRST!
 filetype off                                    " for pathogen
-call pathogen#runtime_append_all_bundles()      " initialise pathogen
+call pathogen#incubate()                        " initialise pathogen
 call pathogen#helptags()                        " 
 filetype plugin indent on                       " filetype detection[ON] plugin[ON] indent[ON]
 set t_Co=256                                    " enable 256-color mode.
