@@ -36,3 +36,7 @@ map <leader>g :GundoToggle<CR>                  " toggle gundo window
 
 let g:pyflakes_use_quickfix = 0                 " do not use the quickfix window
 
+au FileType python set omnifunc=pythoncomplete#Complete  " configure supertab plugin
+let g:SuperTabDefaultCompletionType = "context"          " make tab completion context sensitive
+set completeopt=menuone,longest,preview                  " tab completion options
+
