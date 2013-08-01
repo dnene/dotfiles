@@ -23,3 +23,8 @@ set smarttab                                    " use tabs at the start of a lin
 set nowrap                                      " don't wrap text
 set foldmethod=indent                           " should work for python. Will need to set it per filetype later
 set foldlevel=99                                " unlimited fold depth
+
+map <c-j> <c-w>j                                " map ctrl-j to window down
+map <c-k> <c-w>k                                " map ctrl-k to window up
+map <c-l> <c-w>l                                " map ctrl-l to window right
+map <c-h> <c-w>h                                " map ctrl-h to window left
